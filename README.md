@@ -1,4 +1,4 @@
-# Week 1 — System Design Foundations & The Big Picture
+# System Design Foundations & The Big Picture
 
 > **Engineering Behind Ride-Hailing & Mapping Systems** · 9-Week Roadmap
 
