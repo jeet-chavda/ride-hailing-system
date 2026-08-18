@@ -136,4 +136,4 @@ week1-system-design/
 
 ---
 
-*Engineering Behind Ride-Hailing & Mapping Systems · Week 1 of 9*
+
