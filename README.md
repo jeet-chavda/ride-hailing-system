@@ -112,36 +112,7 @@ Create a **one-page architecture diagram** of your planned mini ride-hailing sys
 - Arrows showing which direction data flows
 - A brief (2–5 word) annotation on each arrow (e.g. "JWT auth request", "driver lat/lng update")
 
-### Submission Checklist
 
-- [ ] Diagram exported as PNG or PDF and placed in the `/diagrams/` folder
-- [ ] All 9 components present and labelled
-- [ ] All arrows annotated with data-flow descriptions
-- [ ] A short `REFLECTION.md` (see template below) completed and committed
-
----
-
-## 📝 Reflection Template
-
-Fill in `/diagrams/REFLECTION.md` after completing the deliverable:
-
-```markdown
-# Week 1 Reflection
-
-## What surprised me most about the architecture
-(2–3 sentences)
-
-## The hardest trade-off I had to think through
-(e.g. monolith vs microservices for a first version — what did you decide and why?)
-
-## One question I still have
-(Write it down — you will likely answer it by Week 9)
-
-## Time spent this week
-___ hours
-```
-
----
 
 ## 🗂️ Folder Structure
 
@@ -161,18 +132,7 @@ week1-system-design/
 
 ---
 
-## 💡 Study Tips
 
-- **Don't just read** — draw the diagram *before* reading the resources, then revise it after. The delta between your first and final draft is your learning.
-- **Timebox** — spend no more than 2 hours reading; the rest of your 8 hours should be on the diagram and reflection.
-- **The CAP theorem is subtle** — focus on understanding *why* you can't have all three, not memorising the definition.
-
----
-
-## ⏭️ What's Next
-
-**Week 2 — Graphs & Dijkstra's Algorithm**  
-You'll build the algorithmic foundation that every routing engine sits on — implementing Dijkstra from scratch using a min-heap.
 
 ---
 
