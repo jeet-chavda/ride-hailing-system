@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+websockets>=12.0
+
+# Uncomment as you swap in real infra over the next few weeks:
+# psycopg2-binary   # PostgreSQL driver
+# redis             # Redis client
+# sqlalchemy        # ORM once you move off in-memory dicts
+# pytest            # for tests/
+# httpx             # for FastAPI TestClient

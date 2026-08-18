@@ -1,0 +1,24 @@
+# Not wired up to the app yet — this is here for when you cut over from
+# the in-memory store (app/core/store.py) to real infra, per the roadmap.
+#
+# Bring up with: docker compose up -d
+version: "3.9"
+services:
+  postgres:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_USER: ridehail
+      POSTGRES_PASSWORD: ridehail
+      POSTGRES_DB: ridehail
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+
+volumes:
+  pgdata:
